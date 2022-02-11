@@ -1,6 +1,11 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
+import axios from 'axios';
 
-console.log('Happy hacking :)')
+const clima = document.querySelector('#clima');
+const ciudad = document.querySelector('#ciudad');
+const temperatura = document.querySelector('#temperatura');
+const form = document.querySelector('#form');
+const search = document.querySelector('#search');
+const img = document.querySelector('#img');
+
+const apiKey = '';
+const iconUrl = '';
