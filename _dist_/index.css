@@ -1,11 +1,42 @@
+*{
+    background-color: #398AB9;
+}
 
 img{
     width: 50px;
     height: 50px;
+    margin-top: 30px;
+    background-color: #EEEEEE;
 }
 
-div{
+.container{
     display:  flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1C658C;
+    width: 800px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
+    background-color: #EEEEEE;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEEEE;
+}
+form{
+    margin-top: 20px;
+}
+
+input{
+    border-radius: 15px;
+    background-color: #D8D2CB;
+}
+
+h1,h2{
+    background-color: #EEEEEE;
 }

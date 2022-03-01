@@ -7,6 +7,7 @@ const ciudad = document.querySelector('#ciudad');
 const temperatura = document.querySelector('#temperatura');
 const search = document.querySelector('#search');
 const form =  document.querySelector('form');
+const input = document.querySelector('input');
 
 const apiKey = 'd23a1ce2f2961252cbdab5be4a975343';
 const iconUrl = 'http://openweathermap.org/img/wn/';
